@@ -12,3 +12,8 @@
   - **Frontend**: Angular y FastAPI (BFF)
   - **Backend**: FastAPI y LangChain
   - **GCP**: Cloud Storage, Cloud SQL, Vertex AI (Modelos Gemini), API Gateway, Artifact Registry, Cloud Build, entre otros
+
+---
+
+## Otros
+- **[LangChain RUT Middleware](https://github.com/ericmartinezr/langchain_rut_middleware)**: Un middleware para LangChain que permite redactar (ocultar) los RUTs Chilenos de las respuestas de los modelos.
