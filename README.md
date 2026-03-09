@@ -6,7 +6,7 @@
 - **[ETL Indicadores de Chile](https://github.com/ericmartinezr/etl_indicadores_gcp)**: Proyecto ETL que obtiene indicadores de Chile diario e histórico, usando Composer 3 (Airflow), BigQuery y Looker Studio.
 - **[DBT + Snowflake](https://github.com/ericmartinezr/dbt-snowflake)**: Proyecto para la limpieza, enriquecimiento y carga de datos en Snowflake con el uso de Data Build Tool.
 - **[Airflow Scrapper](https://github.com/ericmartinezr/airflow-scrapper)**: Proyecto con Airflow para scrapping de sitios como Emol y Mercadopublico. 
-
+- **[Airflow Helm](https://github.com/ericmartinezr/airflow-helm)**: Proyecto con Airflow desplegado en Kubernetes (Docker Desktop). Con algunas cosas interesantes como MLFlow.
 ---
 
 ## Proyectos IA
