@@ -18,13 +18,15 @@
 
 - **[DBT + Snowflake](https://github.com/ericmartinezr/dbt-snowflake)**: Proyecto para la limpieza, enriquecimiento y carga de datos en Snowflake con el uso de Data Build Tool.
 
-## Proyectos IA
-- **[Document AI GCP](https://github.com/ericmartinezr/document_ai_gcp)**: Sistema que permite "conversar" con documentos (PDF).
+# Proyectos IA
+
+## Google Cloud Plataform
+- **[Document AI](https://github.com/ericmartinezr/document_ai_gcp)**: Sistema que permite "conversar" con documentos (PDF).
   - **Frontend**: Angular y FastAPI (BFF)
   - **Backend**: FastAPI y LangChain
   - **GCP**: Cloud Storage, Cloud SQL, Vertex AI (Modelos Gemini), API Gateway, Artifact Registry, Cloud Build, entre otros
 
 ---
 
-## Otros
+# Otros
 - **[LangChain RUT Middleware](https://github.com/ericmartinezr/langchain_rut_middleware)**: Un middleware para LangChain que permite redactar (ocultar) los RUTs Chilenos de las respuestas de los modelos.
