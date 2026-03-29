@@ -18,13 +18,17 @@
 
 - **[DBT + Snowflake](https://github.com/ericmartinezr/dbt-snowflake)**: Proyecto para la limpieza, enriquecimiento y carga de datos en Snowflake con el uso de Data Build Tool.
 
-# Proyectos IA
+# Proyectos IA / ML
 
 ## Google Cloud Plataform
 - **[Document AI](https://github.com/ericmartinezr/document_ai_gcp)**: Sistema que permite "conversar" con documentos (PDF).
   - **Frontend**: Angular y FastAPI (BFF)
   - **Backend**: FastAPI y LangChain
   - **GCP**: Cloud Storage, Cloud SQL, Vertex AI (Modelos Gemini), API Gateway, Artifact Registry, Cloud Build, entre otros
+
+## Azure
+
+- **[Databricks Lakeflow Jobs](https://github.com/ericmartinezr/databricks-lakeflow)**: Proyecto de entrenamiento de un modelo ML usando Databricks y MLFlow usando el dataset de Iris.
 
 ---
 
