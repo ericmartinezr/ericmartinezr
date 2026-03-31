@@ -8,6 +8,7 @@
 ## Azure
 
 - **[ETL Censo 2024 Databricks](https://github.com/ericmartinezr/etl_censo_databricks)**: Proyecto ETL con datos del Censo de Chile del año 2024, usando Databricks.
+- **[ETL Censo 2024 Azure Data Factory](https://github.com/ericmartinezr/adf-censo)**: Implementación del ETL con datos del Censo de Chile del año 2024, usando Azure Data Factory.
 
 ## Proyectos en local
 
