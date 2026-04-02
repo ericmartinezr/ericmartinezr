@@ -1,9 +1,9 @@
 # Proyectos ETL
 
 ## Google Cloud Platform
-- **[Recomendado de libros](https://github.com/ericmartinezr/etl_books_ml)**: Un simple recomendado de libros en GCP, usando Dataform, BigQuery (+ Vertex) y Looker Studio.
-- **[ETL Censo 2024](https://github.com/ericmartinezr/etl_censo_gcp)**: Proyecto ETL con datos del Censo de Chile del año 2024, usando Dataflow (Apache Beam), BigQuery y Looker Studio.
-- **[ETL Indicadores de Chile](https://github.com/ericmartinezr/etl_indicadores_gcp)**: Proyecto ETL que obtiene indicadores de Chile diario e histórico, usando Composer 3 (Airflow), BigQuery y Looker Studio.
+- **[\[Dataform\] Recomendado de libros](https://github.com/ericmartinezr/etl_books_ml)**: Un simple recomendado de libros en GCP, usando Dataform, BigQuery (+ Vertex) y Looker Studio.
+- **[\[Dataflow\] ETL Censo 2024](https://github.com/ericmartinezr/etl_censo_gcp)**: Proyecto ETL con datos del Censo de Chile del año 2024, usando Dataflow (Apache Beam), BigQuery y Looker Studio.
+- **[\[Composer\] ETL Indicadores de Chile](https://github.com/ericmartinezr/etl_indicadores_gcp)**: Proyecto ETL que obtiene indicadores de Chile diario e histórico, usando Composer 3 (Airflow), BigQuery y Looker Studio.
 
 ## Azure
 
