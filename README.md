@@ -14,6 +14,7 @@
 
 - **[Airflow Scrapper](https://github.com/ericmartinezr/airflow-scrapper)**: Proyecto con Airflow (standalone) para scrapping de sitios como Emol y Mercadopublico. 
 - **[Airflow Helm](https://github.com/ericmartinezr/airflow-helm)**: Proyecto con Airflow desplegado en Kubernetes (Docker Desktop). Con algunas cosas interesantes como MLFlow.
+- **[\[Apache Beam\] E-commerce](https://github.com/ericmartinezr/ecommerce_beam)**: Proyecto muy simple para reforzar conceptos de filtrado, enmascarado y normalización usando Apache Beam con datos ficticios.
 
 ## Otras plataformas
 
