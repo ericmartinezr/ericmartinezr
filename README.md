@@ -9,6 +9,7 @@
 
 - **[\[Databricks\] ETL Censo 2024](https://github.com/ericmartinezr/etl_censo_databricks)**: Proyecto ETL con datos del Censo de Chile del año 2024, usando Databricks.
 - **[\[Azure Data Factory\] ETL Censo 2024](https://github.com/ericmartinezr/adf-censo)**: Implementación del ETL con datos del Censo de Chile del año 2024, usando Azure Data Factory.
+- **[\[Azure Synapse\] ETL NASA](https://github.com/ericmartinezr/azure-synapse-nasa)**: Pipeline para extracción, transformación y carga de datos desde la API de la NASA, usando Azure Synapse.
 
 ## Proyectos en local
 
