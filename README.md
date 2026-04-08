@@ -1,39 +1,46 @@
-# Proyectos ETL
 
-## Google Cloud Platform
-- **[\[Dataform\] Recomendado de libros](https://github.com/ericmartinezr/etl_books_ml)**: Un simple recomendado de libros en GCP, usando Dataform, BigQuery (+ Vertex) y Looker Studio.
-- **[\[Dataflow\] ETL Censo 2024](https://github.com/ericmartinezr/etl_censo_gcp)**: Proyecto ETL con datos del Censo de Chile del año 2024, usando Dataflow (Apache Beam), BigQuery y Looker Studio.
-- **[\[Composer\] ETL Indicadores de Chile](https://github.com/ericmartinezr/etl_indicadores_gcp)**: Proyecto ETL que obtiene indicadores de Chile diario e histórico, usando Composer 3 (Airflow), BigQuery y Looker Studio.
 
-## Azure
+# Ingeniería de Datos y Pipelines (ETL / ELT)
 
-- **[\[Databricks\] ETL Censo 2024](https://github.com/ericmartinezr/etl_censo_databricks)**: Proyecto ETL con datos del Censo de Chile del año 2024, usando Databricks.
-- **[\[Azure Data Factory\] ETL Censo 2024](https://github.com/ericmartinezr/adf-censo)**: Implementación del ETL con datos del Censo de Chile del año 2024, usando Azure Data Factory.
-- **[\[Azure Synapse\] ETL NASA](https://github.com/ericmartinezr/azure-synapse-nasa)**: Pipeline para extracción, transformación y carga de datos desde la API de la NASA, usando Azure Synapse.
+## Google Cloud Platform (GCP)
+| Proyecto | Resumen | Stack Tecnológico |
+| :--- | :--- | :--- |
+| **[Recomendador de Libros](https://github.com/ericmartinezr/etl_books_ml)** | Sistema simple de recomendación con dashboards interactivos. | `Dataform`, `BigQuery`, `Vertex AI`, `Looker Studio` |
+| **[ETL Censo Chile 2024](https://github.com/ericmartinezr/etl_censo_gcp)** | Procesamiento a escala de datos del Censo de Chile del año 2024. | `Apache Beam (Dataflow)`, `BigQuery`, `Looker Studio` |
+| **[ETL Indicadores Económicos](https://github.com/ericmartinezr/etl_indicadores_gcp)** | Extracción y carga automatizada, tanto diaria como histórica. | `Airflow (Composer)`, `BigQuery`, `Looker Studio` |
 
-## Proyectos en local
+## Microsoft Azure
+| Proyecto | Resumen | Stack Tecnológico |
+| :--- | :--- | :--- |
+| **[ETL Datos NASA](https://github.com/ericmartinezr/azure-synapse-nasa)** | Pipeline end-to-end extrayendo directamente desde la API oficial de la NASA. | `Azure Synapse Analytics` |
+| **[ETL Censo 2024 - Databricks](https://github.com/ericmartinezr/etl_censo_databricks)** | Alternativa de cálculo y procesamiento distribuido sobre Databricks. | `Azure Databricks`, `PySpark` |
+| **[ETL Censo 2024 - Data Factory](https://github.com/ericmartinezr/adf-censo)** | Orquestación de flujos de datos para la carga del volumen censal. | `Azure Data Factory` |
 
-- **[Airflow Scrapper](https://github.com/ericmartinezr/airflow-scrapper)**: Proyecto con Airflow (standalone) para scrapping de sitios como Emol y Mercadopublico. 
-- **[Airflow Helm](https://github.com/ericmartinezr/airflow-helm)**: Proyecto con Airflow desplegado en Kubernetes (Docker Desktop). Con algunas cosas interesantes como MLFlow.
-- **[\[Apache Beam\] E-commerce](https://github.com/ericmartinezr/ecommerce_beam)**: Proyecto muy simple para reforzar conceptos de filtrado, enmascarado y normalización usando Apache Beam con datos ficticios.
-
-## Otras plataformas
-
-- **[DBT + Snowflake](https://github.com/ericmartinezr/dbt-snowflake)**: Proyecto para la limpieza, enriquecimiento y carga de datos en Snowflake con el uso de Data Build Tool.
-
-# Proyectos IA / ML
-
-## Google Cloud Plataform
-- **[Document AI](https://github.com/ericmartinezr/document_ai_gcp)**: Sistema que permite "conversar" con documentos (PDF).
-  - **Frontend**: Angular y FastAPI (BFF)
-  - **Backend**: FastAPI y LangChain
-  - **GCP**: Cloud Storage, Cloud SQL, Vertex AI (Modelos Gemini), API Gateway, Artifact Registry, Cloud Build, entre otros
-
-## Azure
-
-- **[Databricks Lakeflow Jobs](https://github.com/ericmartinezr/databricks-lakeflow)**: Proyecto de entrenamiento de un modelo ML usando Databricks y MLFlow usando el dataset de Iris.
+## Otras Plataformas y Herramientas Locales
+| Proyecto | Resumen | Stack Tecnológico |
+| :--- | :--- | :--- |
+| **[ETL con Snowflake & dbt](https://github.com/ericmartinezr/dbt-snowflake)** | Limpieza, modelado moderno y carga de datos orientada a analítica. | `dbt`, `Snowflake` |
+| **[Airflow Web Scraper](https://github.com/ericmartinezr/airflow-scrapper)** | Scraping automatizado de transacciones públicas y sitios de noticias. | `Airflow Standalone`, `Python` |
+| **[Airflow en Kubernetes](https://github.com/ericmartinezr/airflow-helm)** | Despliegue de Airflow vía Helm, incluyendo integración con servidor MLFlow. | `Kubernetes`, `Helm`, `MLFlow` |
+| **[Apache Beam E-commerce](https://github.com/ericmartinezr/ecommerce_beam)** | Técnicas de enmascaramiento, filtrado y normalización sobre datos ficticios. | `Apache Beam` |
 
 ---
 
-# Otros
-- **[LangChain RUT Middleware](https://github.com/ericmartinezr/langchain_rut_middleware)**: Un middleware para LangChain que permite redactar (ocultar) los RUTs Chilenos de las respuestas de los modelos.
+## Inteligencia Artificial y Machine Learning
+
+| Entorno / Proyecto | Resumen | Stack Tecnológico |
+| :--- | :--- | :--- |
+| **GCP: [Document AI (Chat con PDF)](https://github.com/ericmartinezr/document_ai_gcp)** | Arquitectura full-stack que permite consultar documentos PDF mediante un modelo de lenguaje (RAG). | `Vertex AI (Gemini)`, `LangChain`, `FastAPI`, `Cloud SQL`, `Angular` |
+| **Azure: [Databricks Lakeflow](https://github.com/ericmartinezr/databricks-lakeflow)** | Pipeline analítico de entrenamiento de un modelo predictivo sobre el clásico dataset Iris. | `Databricks Jobs`, `MLFlow`, `Python` |
+
+---
+
+# Otros proyectos
+
+| Proyecto | Resumen / Propósito |
+| :--- | :--- |
+| **[LangChain RUT Middleware](https://github.com/ericmartinezr/langchain_rut_middleware)** | Middleware para resguardar la privacidad de la información, permitiendo detectar, enmascarar y redirigir identificadores chilenos (RUT) generados en las respuestas de los modelos en LangChain. |
+
+---
+
+> **Nota:** Cada proyecto cuenta con su propia documentación detallada (README).
