@@ -23,6 +23,7 @@
 | **[Airflow Web Scraper](https://github.com/ericmartinezr/airflow-scrapper)** | Scraping automatizado de transacciones públicas y sitios de noticias. | `Airflow Standalone`, `Python` |
 | **[Airflow en Kubernetes](https://github.com/ericmartinezr/airflow-helm)** | Despliegue de Airflow vía Helm, incluyendo integración con servidor MLFlow. | `Kubernetes`, `Helm`, `MLFlow` |
 | **[Apache Beam E-commerce](https://github.com/ericmartinezr/ecommerce_beam)** | Técnicas de enmascaramiento, filtrado y normalización sobre datos ficticios. | `Apache Beam` |
+| **[MercadoPublico - Astronomer (VibeCoded)](https://github.com/ericmartinezr/etl_mercadopublico)** | Extracción y carga de licitaciones del estado de Chile. | `Apache Airflow`, `Astronomer`, `OpenCode`
 
 ---
 
@@ -40,6 +41,8 @@
 | Proyecto | Resumen / Propósito |
 | :--- | :--- |
 | **[LangChain RUT Middleware](https://github.com/ericmartinezr/langchain_rut_middleware)** | Middleware para resguardar la privacidad de la información, permitiendo detectar, enmascarar y redirigir identificadores chilenos (RUT) generados en las respuestas de los modelos en LangChain. |
+
+
 
 ---
 
