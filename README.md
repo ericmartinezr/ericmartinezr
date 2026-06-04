@@ -41,7 +41,7 @@
 | Proyecto | Resumen | Stack Tecnológico |
 | :--- | :--- | :--- |
 | **[LangChain RUT Middleware](https://github.com/ericmartinezr/langchain_rut_middleware)** | Middleware para resguardar la privacidad de la información, permitiendo detectar, enmascarar y redirigir identificadores chilenos (RUT) generados en las respuestas de los modelos en LangChain. | `LangChain` 
-| **[Local Lakehouse](https://github.com/ericmartinezr/local_lakehouse)** | Lakehouse local con un frontend para interactuar | `Floci`, `Apache Polaris`, `Apache Iceberg`, `Duckdb`, `Trino`
+| **[Local Lakehouse (VibeCoded)](https://github.com/ericmartinezr/local_lakehouse)** | Lakehouse local con un frontend para interactuar | `Floci`, `Apache Polaris`, `Apache Iceberg`, `Duckdb`, `Trino`, `OpenCode`
 
 
 
